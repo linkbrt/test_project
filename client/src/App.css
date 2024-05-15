@@ -1,0 +1,33 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.repositories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.repository {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.repository h2 {
+  margin-top: 0;
+}
+
+.repository p {
+  margin-bottom: 5px;
+}
+
+.repository a {
+  display: block;
+  text-decoration: none;
+  color: #0366d6;
+}
